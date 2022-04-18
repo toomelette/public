@@ -1,0 +1,87 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?ufu8y5');
+  src:  url('fonts/icomoon.eot?ufu8y5#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?ufu8y5') format('truetype'),
+    url('fonts/icomoon.woff?ufu8y5') format('woff'),
+    url('fonts/icomoon.svg?ufu8y5#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-service-record:before {
+  content: "\e911";
+}
+.icon-family:before {
+  content: "\e912";
+}
+.icon-seminar:before {
+  content: "\e913";
+}
+.icon-leave:before {
+  content: "\e906";
+}
+.icon-computer-repair:before {
+  content: "\e907";
+}
+.icon-peso:before {
+  content: "\e908";
+}
+.icon-applicants:before {
+  content: "\e909";
+}
+.icon-documents:before {
+  content: "\e90a";
+}
+.icon-employees:before {
+  content: "\e90b";
+}
+.icon-documents-folder:before {
+  content: "\e90c";
+}
+.icon-contact:before {
+  content: "\e90d";
+}
+.icon-departments:before {
+  content: "\e90e";
+}
+.icon-project-codes:before {
+  content: "\e90f";
+}
+.icon-signature:before {
+  content: "\e910";
+}
+.icon-procurement:before {
+  content: "\e904";
+}
+.icon-budgeting:before {
+  content: "\e905";
+}
+.icon-ico-holiday:before {
+  content: "\e900";
+}
+.icon-ico-time:before {
+  content: "\e901";
+}
+.icon-ico-menu:before {
+  content: "\e902";
+}
+.icon-ico-fingerprint:before {
+  content: "\e903";
+}
