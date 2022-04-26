@@ -201,16 +201,19 @@ function loading_btn(target_form){
 }
 
 function errored(target_form, response){
+
     form_id = $(target_form[0]).attr('id');
     remove_loading_btn(target_form);
-    unmark_required(target_form);
-    mark_required(target_form,response);
+
+
     if(response.status == 503){
         notify(response.responseJSON.message, "danger");
     }else if(response.status == 422){
-
+        unmark_required(target_form);
+        mark_required(target_form,response);
+    }else if(response.status == 413){
+        notify('File too large.','danger');
     }else{
-
         alert(response.responseJSON.message);
     }
 }

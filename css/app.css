@@ -39,12 +39,42 @@
     border: none;
 }
 
+.news{
+    padding: 5px;
+    -webkit-transition: background-color .3s;
+    transition: background-color .3s;
+    color: black;
+}
+.news:hover {
+    background-color: #cbeddc;
+}
 
 /* Input Uppercase */
 input[data-transform=uppercase] {
     text-transform: uppercase;
 }
 
+.attatchment-horizontal{
+    width: 100%; height: 80px ; border: 1px solid #eee;}
+
+.attatchment-horizontal > div:first-child {
+    width: 20%; float: left
+}
+
+.attatchment-horizontal > div:nth-child(2) {
+    width: 79%; float: right; height: 78px;
+}
+
+.attatchment-horizontal .mailbox-attachment-info{
+    height: inherit;
+}
+.attatchment-horizontal .mailbox-attachment-size{
+    padding-top: 22px;
+}
+
+.attatchment-horizontal .mailbox-attachment-icon{
+    font-size: 32px;
+}
 
 #mid-vert{
     vertical-align: middle;
