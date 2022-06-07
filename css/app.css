@@ -30,6 +30,18 @@
 
 }
 
+.nav-tabs-custom>.nav-tabs>li.tab-error {
+    /*border-top-color: #ff203b;*/
+}
+
+.nav-tabs-custom>.nav-tabs>li.tab-error a {
+    color:darkred !important;
+}
+
+.page-header-sm{
+    border-bottom: 1px solid #eee;
+}
+
 .table-borderless > tbody > tr > td,
 .table-borderless > tbody > tr > th,
 .table-borderless > tfoot > tr > td,
@@ -128,7 +140,9 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
     /*background-color: #a7e8cb !important;*/
     padding: 3px 10px !important;
 }
-
+.ui-sortable{
+    background-color: #d1eeff !important;
+}
 
 body.dragging, body.dragging * {
     cursor: move !important;
@@ -499,4 +513,21 @@ ol.example li.placeholder:before {
     outline: none !important;
     border:1px solid red;
     box-shadow: 0 0 10px #dd514c;
+}
+.box.box-sm.box-solid{
+    margin-bottom: 5px;
+}
+.box-header>.fa, .box-header>.glyphicon, .box-header>.ion, .box-header .box-title-sm {
+    font-size: 12px;
+}
+
+.box.box-sm.box-solid.box-default>.box-header{
+    padding: 5px;
+}
+
+.box.box-sm.box-solid>.box-header>.box-tools .btn{
+    padding: 0px 5px;
+}
+.box-sm>.box-header>.box-tools{
+    top: 2px;
 }

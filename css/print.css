@@ -38,5 +38,64 @@
    .col-sm-1 {
         width: 8.33333333%;
    }
-   
+   .no-print{
+       display: none;
+   }
+
+
+}
+
+body{
+    font-family: "Calibri";
+    -webkit-print-color-adjust: exact !important;
+    overflow: auto;
+}
+table.print-table{
+    border-spacing: 0;
+    width: 100%;
+}
+table.print-table th{
+    border: 1px solid black;
+    font-size: 13px;
+    background-color: #e4ffe3;
+    /*color: white;*/
+    /*padding: 0;*/
+    /*margin: 0;*/
+}
+table.print-table th,table.print-table td{
+    border: 1px solid black;
+    font-size: 12px;
+    padding: 5px 5px;
+    /*padding: 0;*/
+    /*margin: 0;*/
+}
+
+
+.tbl-bordered>thead>tr>th, .tbl-bordered>tbody>tr>th, .tbl-bordered>tfoot>tr>th, .tbl-bordered>thead>tr>td, .tbl-bordered>tbody>tr>td, .tbl-bordered>tfoot>tr>td{
+    border: 1px solid black;
+}
+.tbl-padded>thead>tr>th, .tbl-padded>tbody>tr>th, .tbl-padded>tfoot>tr>th, .tbl-padded>thead>tr>td, .tbl-padded>tbody>tr>td, .tbl-padded>tfoot>tr>td{
+    padding: 2px 2px;
+}
+
+.text-right{
+    text-align: right;
+}
+
+.text-left{
+    text-align: left;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.text-strong{
+    font-weight: bold;
+}
+.no-margin{
+    margin: 0;
+}
+.no-padding{
+    padding: 0;
 }
